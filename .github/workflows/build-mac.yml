@@ -27,7 +27,7 @@ jobs:
 
       - name: Build .app
         run: |
-          pyinstaller --windowed --name "TwojProgram" main.py
+          pyinstaller --windowed --name "TwojProgram" genv2.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
